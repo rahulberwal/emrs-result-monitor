@@ -67,6 +67,8 @@ NESTS Public Document Repository
 
 ## Technical highlights
 
+The repository contains both the Android client and the Python monitoring component, making the complete detection-to-notification workflow reproducible at the architecture level without exposing production credentials or infrastructure details.
+
 One of the more interesting parts of the project was identifying a timestamp-based naming pattern in the public document repository.
 
 The numeric PDF filename corresponds to a Unix timestamp in seconds. This makes it possible to construct and check potential document URLs directly instead of depending exclusively on the visible website interface.
@@ -127,14 +129,30 @@ emrs-result-monitor/
 │   │       └── AndroidManifest.xml
 │   ├── build.gradle.kts
 │   └── google-services.json
+│
+├── monitor/
+│   ├── monitor.py
+│   ├── requirements.txt
+│   └── README.md
+│
+├── screenshots/
+│   ├── app-icon.png
+│   ├── notification.jpeg
+│   ├── pdf-opened.jpeg
+│   └── monitor-running.png
+│
 ├── gradle/
 ├── build.gradle.kts
 ├── gradle.properties
 ├── gradlew
 ├── gradlew.bat
 ├── settings.gradle.kts
+├── .gitignore
 └── README.md
 ```
+
+The `app/` directory contains the Android client, while `monitor/` contains the Python-based document monitoring service. The `screenshots/` directory contains selected visuals demonstrating the working system.
+
 
 ## Security
 
