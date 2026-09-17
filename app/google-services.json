@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "964112171243",
+    "project_id": "emrsresult-d84dd",
+    "storage_bucket": "emrsresult-d84dd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964112171243:android:550759392acf8aa3277eae",
+        "android_client_info": {
+          "package_name": "com.emrsresult.monitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtBzwjDORCbW9yyp-opUauQFhpCYc2QFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
