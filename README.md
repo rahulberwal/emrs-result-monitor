@@ -35,6 +35,23 @@ NESTS Public Document Repository
               ▼
           Open PDF
 ```
+## Screenshots
+
+### Android App
+
+![EMRS Result Monitor](screenshots/app-icon.png)
+
+### Instant Notification
+
+![FCM Notification](screenshots/notification.jpeg)
+
+### Result PDF
+
+![NESTS Result PDF](screenshots/pdf-opened.jpeg)
+
+### Cloud Monitor
+
+![Monitoring Service](screenshots/monitor-running.png)
 
 ## Key features
 
